@@ -49,7 +49,7 @@
       <file leaf-file-name="parser.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="185" selection-start="3245" selection-end="3245" vertical-scroll-proportion="0.55518395" vertical-offset="1354" max-vertical-offset="1995">
+            <state line="80" column="34" selection-start="3094" selection-end="3094" vertical-scroll-proportion="0.1270903" vertical-offset="1482" max-vertical-offset="1995">
               <folding>
                 <element signature="e#24#33#0" expanded="true" />
               </folding>
@@ -399,7 +399,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="0" width="1309" height="728" extended-state="0" />
+    <frame x="57" y="0" width="1309" height="728" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -500,7 +500,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="185" selection-start="3245" selection-end="3245" vertical-scroll-proportion="0.55518395" vertical-offset="1354" max-vertical-offset="1995">
+        <state line="80" column="34" selection-start="3094" selection-end="3094" vertical-scroll-proportion="0.1270903" vertical-offset="1482" max-vertical-offset="1995">
           <folding>
             <element signature="e#24#33#0" expanded="true" />
           </folding>
