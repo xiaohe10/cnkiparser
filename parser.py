@@ -4,6 +4,7 @@ import sys
 reload(sys)
 sys.setdefaultencoding( "utf-8" )
 import re
+import MySQLdb
 
 class Parser():
     def __init__(self):
@@ -12,6 +13,7 @@ class Parser():
         self.sql_name = 'paper'
         self.sql_user = 'root'
         self.sql_pass = 'root'
+        self.count = 0
 
     def parse_file(self,filename):
         paper = {}
@@ -66,11 +68,33 @@ class Parser():
                 print f
                 paper = p.parse_file(f)
                 if paper:
-                    print paper['expertID']+' ok'
+                    print 'parse '+paper['expertID']+' ok'
+                    self.insert2DB(paper)
+                    self.count += 1
+                    if self.count > 1000:
+                        self.conn.commit()
+                        self.count = 0
                 else:
                     print 'fail'
+    def insert2DB(self,paper):
+        authorlist_String = ','.join(paper['authorlist'])
+        sql  = "insert into CnkiPaper (expert_ID,title,authorlist,pub_date) values({0},\"{1}\",\"{2}\",\"{3}\")".format(paper["expertID"],paper["title"],authorlist_String,paper["date"])
+        self.cursor.execute(sql)
+    def init_database(self):
+        self.conn = MySQLdb.connect(host="166.111.81.223",user="root",passwd="root",  charset='utf8')
+        self.cursor = self.conn.cursor()
+        self.cursor.execute('Create database if not exists experts DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci;')
+        self.conn.select_db('experts')
+        self.cursor = self.conn.cursor()
+        self.cursor.execute('Create table if not exists CnkiPaper(expert_ID BIGINT(20),title varchar(100),authorlist varchar(100),pub_date date) ;')
+        self.cursor.execute("SET NAMES utf8")
+        self.cursor.execute("SET CHARACTER_SET_CLIENT=utf8")
+        self.cursor.execute("SET CHARACTER_SET_RESULTS=utf8")
+        self.conn.commit()
 
 if __name__ == '__main__':
     p = Parser()
-    #p.parse_file('Paper/0/1.html')
+    p.init_database()
     p.findAllFiles('paper/0/')
+    p.conn.commit()
+    print "okay!!! parse success"
