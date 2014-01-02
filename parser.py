@@ -8,11 +8,6 @@ import MySQLdb
 
 class Parser():
     def __init__(self):
-        self.html_dir = '/Paper'
-        self.sql_host = '166.111.81.223'
-        self.sql_name = 'paper'
-        self.sql_user = 'root'
-        self.sql_pass = 'root'
         self.count = 0
 
     def parse_file(self,filename):

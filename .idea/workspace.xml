@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="552246ef-e44d-423b-8b3e-f1c0a837df0f" name="Default" comment="" />
+    <list default="true" id="552246ef-e44d-423b-8b3e-f1c0a837df0f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/transfer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/cnkiparser.iml" afterPath="$PROJECT_DIR$/.idea/cnkiparser.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parser.py" afterPath="$PROJECT_DIR$/parser.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="cnkiparser.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,7 +18,8 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/cnkiparser$parser.coverage" NAME="parser Coverage Results" MODIFIED="1388468877453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cnkiparser$transfer.coverage" NAME="transfer Coverage Results" MODIFIED="1388499899144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cnkiparser$parser.coverage" NAME="parser Coverage Results" MODIFIED="1388499361977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -25,57 +32,45 @@
     <favorites_list name="cnkiparser" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="1.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Paper/0/1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="252" column="7" selection-start="14342" selection-end="14342" vertical-scroll-proportion="1.3333334" vertical-offset="4892" max-vertical-offset="76760">
-              <folding>
-                <element signature="n#style#0;n#td#0;n#TR#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1388428696386" expanded="false" signature="195614:195628" placeholder="..." />
-                <marker date="1388428696386" expanded="false" signature="198837:198851" placeholder="..." />
-                <marker date="1388428696386" expanded="false" signature="202374:202388" placeholder="..." />
-                <marker date="1388428696386" expanded="false" signature="206220:206234" placeholder="..." />
-                <marker date="1388428696386" expanded="false" signature="214530:214544" placeholder="..." />
-                <marker date="1388428696386" expanded="false" signature="218014:218028" placeholder="..." />
-                <marker date="1388428696386" expanded="false" signature="222012:222026" placeholder="..." />
-                <marker date="1388428696386" expanded="false" signature="308819:308833" placeholder="..." />
-                <marker date="1388428696386" expanded="false" signature="312219:312233" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="parser.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/parser.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="34" selection-start="3094" selection-end="3094" vertical-scroll-proportion="0.1270903" vertical-offset="1482" max-vertical-offset="1995">
-              <folding>
-                <element signature="e#24#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__builtin__.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-762174762/__builtin__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="223" column="17" selection-start="7579" selection-end="7579" vertical-scroll-proportion="0.0" vertical-offset="4067" max-vertical-offset="96881">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="re.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/Python27/Lib/re.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="143" column="21" selection-start="6862" selection-end="6866" vertical-scroll-proportion="0.0" vertical-offset="2575" max-vertical-offset="6232">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.39539114">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="1.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Paper/0/1.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="252" column="7" selection-start="14342" selection-end="14342" vertical-scroll-proportion="-0.0" vertical-offset="3780" max-vertical-offset="60600">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="parser.py" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/parser.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="39" column="45" selection-start="1499" selection-end="1499" vertical-scroll-proportion="-1.3461539" vertical-offset="1110" max-vertical-offset="1500">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="transfer.py" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/transfer.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="35" column="13" selection-start="1026" selection-end="1026" vertical-scroll-proportion="1.1589404" vertical-offset="0" max-vertical-offset="630">
+                  <folding>
+                    <element signature="e#24#33#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -96,13 +91,15 @@
       <list>
         <option value="$PROJECT_DIR$/CnkiParser.py" />
         <option value="$PROJECT_DIR$/parser.py" />
+        <option value="$PROJECT_DIR$/transfer.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="57" />
-    <option name="width" value="1309" />
-    <option name="height" value="728" />
+    <option name="x" value="65" />
+    <option name="y" value="-1056" />
+    <option name="width" value="1855" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -149,24 +146,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cnkiparser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cnkiparser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Paper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -174,11 +153,11 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="vcs.Git" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -191,7 +170,7 @@
       <recent name="C:\Users\xiaohe\Documents\GitHub\cnkiparser\Paper" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.parser">
+  <component name="RunManager" selected="Python.transfer">
     <configuration default="false" name="parser" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -206,6 +185,27 @@
       <module name="cnkiparser" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parser.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="transfer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cnkiparser" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/transfer.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -297,6 +297,9 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -318,9 +321,6 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -363,12 +363,14 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python.parser" />
+      <item index="1" class="java.lang.String" itemvalue="Python.transfer" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.parser" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.transfer" />
+        <item index="1" class="java.lang.String" itemvalue="Python.parser" />
       </list>
     </recent_temporary>
   </component>
@@ -399,24 +401,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="0" width="1309" height="728" extended-state="1" />
+    <frame x="65" y="-1056" width="1855" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286219" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15390565" sideWeight="0.6582064" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50082374" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11105121" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34179357" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.340625" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286219" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -431,76 +433,71 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/transfer.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/transfer.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Paper/0/1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3838" column="11" selection-start="315092" selection-end="315092" vertical-scroll-proportion="0.0" vertical-offset="3472" max-vertical-offset="76760">
-          <folding>
-            <element signature="n#style#0;n#td#0;n#TR#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1388428696386" expanded="false" signature="195614:195628" placeholder="..." />
-            <marker date="1388428696386" expanded="false" signature="198837:198851" placeholder="..." />
-            <marker date="1388428696386" expanded="false" signature="202374:202388" placeholder="..." />
-            <marker date="1388428696386" expanded="false" signature="206220:206234" placeholder="..." />
-            <marker date="1388428696386" expanded="false" signature="214530:214544" placeholder="..." />
-            <marker date="1388428696386" expanded="false" signature="218014:218028" placeholder="..." />
-            <marker date="1388428696386" expanded="false" signature="222012:222026" placeholder="..." />
-            <marker date="1388428696386" expanded="false" signature="308819:308833" placeholder="..." />
-            <marker date="1388428696386" expanded="false" signature="312219:312233" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/standardSchemas/xhtml1-transitional.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1173" column="2" selection-start="31391" selection-end="31429" vertical-scroll-proportion="0.36603773" vertical-offset="22190" max-vertical-offset="23161">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="177" column="8" selection-start="4700" selection-end="4700" vertical-scroll-proportion="0.65625" vertical-offset="3132" max-vertical-offset="5377">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="21" selection-start="6862" selection-end="6866" vertical-scroll-proportion="0.0" vertical-offset="2575" max-vertical-offset="6232">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Paper/0/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="252" column="7" selection-start="14342" selection-end="14342" vertical-scroll-proportion="1.3333334" vertical-offset="4892" max-vertical-offset="76760">
-          <folding>
-            <element signature="n#style#0;n#td#0;n#TR#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1388428696386" expanded="false" signature="195614:195628" placeholder="..." />
-            <marker date="1388428696386" expanded="false" signature="198837:198851" placeholder="..." />
-            <marker date="1388428696386" expanded="false" signature="202374:202388" placeholder="..." />
-            <marker date="1388428696386" expanded="false" signature="206220:206234" placeholder="..." />
-            <marker date="1388428696386" expanded="false" signature="214530:214544" placeholder="..." />
-            <marker date="1388428696386" expanded="false" signature="218014:218028" placeholder="..." />
-            <marker date="1388428696386" expanded="false" signature="222012:222026" placeholder="..." />
-            <marker date="1388428696386" expanded="false" signature="308819:308833" placeholder="..." />
-            <marker date="1388428696386" expanded="false" signature="312219:312233" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-762174762/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="223" column="17" selection-start="7579" selection-end="7579" vertical-scroll-proportion="0.0" vertical-offset="4067" max-vertical-offset="96881">
+        <state line="252" column="7" selection-start="14342" selection-end="14342" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="60600">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="34" selection-start="3094" selection-end="3094" vertical-scroll-proportion="0.1270903" vertical-offset="1482" max-vertical-offset="1995">
+        <state line="80" column="34" selection-start="3094" selection-end="3094" vertical-scroll-proportion="0.0" vertical-offset="1185" max-vertical-offset="1575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Paper/0/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3838" column="11" selection-start="315092" selection-end="315092" vertical-scroll-proportion="0.0" vertical-offset="3472" max-vertical-offset="76760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/standardSchemas/xhtml1-transitional.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1173" column="2" selection-start="31391" selection-end="31429" vertical-scroll-proportion="0.36603773" vertical-offset="22190" max-vertical-offset="23161" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="177" column="8" selection-start="4700" selection-end="4700" vertical-scroll-proportion="0.65625" vertical-offset="3132" max-vertical-offset="5377" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Paper/0/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="252" column="7" selection-start="14342" selection-end="14342" vertical-scroll-proportion="0.0" vertical-offset="3780" max-vertical-offset="60600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="45" selection-start="1499" selection-end="1499" vertical-scroll-proportion="-1.3461539" vertical-offset="1110" max-vertical-offset="1500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transfer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="13" selection-start="1026" selection-end="1026" vertical-scroll-proportion="1.1589404" vertical-offset="0" max-vertical-offset="630">
           <folding>
             <element signature="e#24#33#0" expanded="true" />
           </folding>
